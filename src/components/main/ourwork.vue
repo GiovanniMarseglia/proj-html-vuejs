@@ -15,7 +15,7 @@
 <template>
     <div class="container-fluid">
         <div class="container d-flex flex-column gap-4 align-items-center">
-            <div class="mx-auto w-50 pt-5">
+            <div class=" w-50 pt-5">
                 <h2 class="text-center">Our Work</h2>
                 <p class="text-center">Sit amet consectetur adipisicing elit. Non minus vero debitis voluptas, asperiores ipsum eum adipisci</p>
             </div>
