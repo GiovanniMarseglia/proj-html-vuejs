@@ -1,10 +1,13 @@
 <script >
 import jumbo from "./components/header/jumbo.vue";
 import AppMain from "./components/main/AppMain.vue";
+import AppFooter from "./components/footer/AppFooter.vue";
+
 export default {
   components:{
     jumbo,
     AppMain,
+    AppFooter,
         },
 
   data() {
@@ -24,6 +27,7 @@ export default {
 <template>
 <jumbo/>
 <AppMain/>
+<AppFooter/>
 </template>
 
 <style lang="scss">

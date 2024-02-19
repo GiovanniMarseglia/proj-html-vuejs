@@ -1,6 +1,6 @@
 <script >
 import navhead from "./navhead.vue";
-
+import {store} from "../../store"
 export default {
     name:"jumbo",
   components:{
@@ -9,14 +9,8 @@ export default {
 
   data() {
     return {
-    list:[
-      "Home",
-      "Who We Are",
-      "What We do",
-      "Where We Worker",
-      "Careers",
-      "News"
-    ] 
+    store,
+    
     }
 
   },
@@ -28,7 +22,7 @@ export default {
 <template>
 <div class="container-fluid">
   <div class="container">
-    <navhead :lsnav="list"/>
+    <navhead :lsnav="store.list"/>
     <div class="jumboInfo d-flex flex-column gap-4 w-50">
       <h1>SEM Capmpaigns Made Simple With Avada</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla at eaque iusto nostrum exercitationem</p>
