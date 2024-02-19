@@ -1,13 +1,13 @@
-
 <script>
 export default{
     props:{
         ["lsnav"]:Array
     },
+    name:"navhead",
 data() {
     
     return {
-        name:"navhead",
+        
     }
 },
 }
@@ -24,23 +24,32 @@ data() {
         <li v-for="element in lsnav">{{element}}</li>
     </ul>
     <button class="btn rounded-5 fw-bold">GET IN TOUCH NOW</button>
+
     </div>
 </div>
 </template>
 
 <style scoped lang="scss">
 @use "../../styles/partials/variables" as *;
-    button{
-        background-color: $yellowAvada;
-        color: $whiteAvada;
-    }
 
+    
+    button{
+        background-color: $yellowAvada!important;    
+        color: $whiteAvada!important;
+    }
+    
+       
     figure{
         width: 200px;
     }
 
     li{
         color: $whiteAvada;
+        user-select: none;
+        &:hover{
+            color: $yellowAvada;
+            cursor: pointer;
+        }
     }
 
 </style>
