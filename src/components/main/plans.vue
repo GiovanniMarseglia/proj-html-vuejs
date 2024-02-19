@@ -23,7 +23,7 @@
                 <div class="col">
                     <div class="bg-light d-flex flex-column text-center gap-4 py-5 align-items-center">
                         <h3>Standard</h3>
-                        <span class="fw-bold h1"><sup>$</sup>19<sup>99</sup><sub class="fs-6">monthly</sub></span>
+                        <span class="fw-bold h1"><sup>$</sup>19<sup class="h4">99</sup><sub class="fs-6">monthly</sub></span>
                         <span>5 Projects</span>
                         <span>5 GB Storage</span>
                         <span>Unlimited User</span>
@@ -35,7 +35,7 @@
                 <div class="col">
                     <div class="bg-light d-flex flex-column text-center gap-4 py-5 align-items-center">
                         <h3>Premium</h3>
-                        <span class="fw-bold h1"><sup>$</sup>29<sup>99</sup><sub class="fs-6">monthly</sub></span>
+                        <span class="fw-bold h1"><sup>$</sup>29<sup class="h4">99</sup><sub class="fs-6">monthly</sub></span>
                         <span>5 Projects</span>
                         <span>5 GB Storage</span>
                         <span>Unlimited User</span>
@@ -48,7 +48,7 @@
                 <div class="col">
                     <div class="bg-light d-flex flex-column text-center gap-4 py-5 align-items-center">
                         <h3>Professional</h3>
-                        <span class="fw-bold h1"><sup>$</sup>39<sup>99</sup><sub class="fs-6">monthly</sub></span>
+                        <span class="fw-bold h1"><sup>$</sup>39<sup class="h4">99</sup><sub class="fs-6">monthly</sub></span>
                         <span>5 Projects</span>
                         <span>5 GB Storage</span>
                         <span>Unlimited User</span>
@@ -62,7 +62,7 @@
                     <div class="bg-light d-flex flex-column text-center gap-4 py-5 align-items-center">
                     
                         <h3>Exstreme</h3>
-                        <span class="fw-bold h1"><sup>$</sup>59<sup>99</sup><sub class="fs-6">monthly</sub></span>
+                        <span class="fw-bold h1"><sup>$</sup>59<sup class="h4">99</sup><sub class="fs-6">monthly</sub></span>
                         <span>5 Projects</span>
                         <span>5 GB Storage</span>
                         <span>Unlimited User</span>

@@ -19,7 +19,7 @@
                 <h2 class="text-center">Our Work</h2>
                 <p class="text-center">Sit amet consectetur adipisicing elit. Non minus vero debitis voluptas, asperiores ipsum eum adipisci</p>
             </div>
-            <div class="row row-cols-3 g-1 pt-5 d-flex justify-content-center">
+            <div class="row row-cols-3 g-2 gx-4 pt-5 d-flex justify-content-center">
                 <div class="col">
                     <figure>
                         <img class="w-100" src="../../img/workimg/case1.jpg" alt="">
