@@ -1,10 +1,14 @@
 <script>
     import seotemplate from "./seotemplate.vue"
-    import services from "./services.vue"
+    import services from "./services.vue" 
+    import ourwork from "./ourwork.vue" 
+    import news from "./news.vue" 
     export default {
         components:{
             seotemplate,
-            services
+            services,
+            ourwork,
+            news,
         },
         data() {
             return {
@@ -17,6 +21,8 @@
 <template>
     <seotemplate/>
     <services/>
+    <ourwork/>
+    <news/>
 </template>
 
 
