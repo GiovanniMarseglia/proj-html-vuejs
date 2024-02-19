@@ -26,8 +26,11 @@ export default {
 
 
 <template>
-<div class="container">
+<div class="container-fluid">
+  <div class="container">
+  
     <navhead :lsnav="list"/>
+  </div>
 
 </div>
 
@@ -36,7 +39,12 @@ export default {
 
 
 <style lang="scss" scoped>
-.container{
-    background-image: url(../../img/hero-image.png);
+.container-fluid{
+    background-image: url("../../img/hero-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 1050px;
 }
 </style>
