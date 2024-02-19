@@ -1,10 +1,28 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script >
+import jumbo from "./components/header/jumbo.vue";
+
+export default {
+  components:{
+    jumbo
+        },
+
+  data() {
+       
+        
+    return {
+    
+
+    }
+
+  },
+}
+
 </script>
 
 
 <template>
-  <HelloWorld/>
+<jumbo/>
+
 </template>
 
 <style lang="scss">
