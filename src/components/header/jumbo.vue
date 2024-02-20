@@ -45,7 +45,7 @@ export default {
 <style lang="scss" scoped>
 @use "../../styles/partials/variables" as *;
 .container-fluid{
-    background-image: url("../../img/hero-image.png");
+    background-image: url("../../img/hero-image.webp");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
