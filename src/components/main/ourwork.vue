@@ -92,13 +92,14 @@
     .container-fluid{
         padding-bottom: 100px;
         .col{
-            
+           
             &:hover{
+                
                 .linkd{
+               
                 background-color: #627AFE;
                 background: linear-gradient(#627AFE 0%,#92A2F9 50%,#E2E5EF 100%);
                 display: flex!important;
-                
                 width: calc(100% - 24px);
                 height: calc(100% - 16px);
                 cursor: pointer;
