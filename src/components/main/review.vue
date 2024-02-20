@@ -29,7 +29,7 @@
       <figure>
         <img class="w-100" src="../../img/testimonials-2.jpg" alt="">
       </figure>
-      <p class="fs-5 text-center">Ability proceeds from a fusion of skills,knowledge,understanding and imagination,consolidated by experience.</p>
+      <p class="fs-5 text-center">Ability proceeds from a fusion of skills, knowledge, understanding and imagination, consolidated by experience.</p>
       <span class="h5 text-center">Luis Desaivo, <span class="fs-5">CREO TECH</span></span>
       </div>
     </div>
@@ -38,7 +38,7 @@
       <figure >
         <img class="w-100" src="../../img/testimonials-1.jpg" alt="">
       </figure>
-      <p  class="fs-5 text-center">Ability proceeds from a fusion of skills,knowledge,understanding and imagination,consolidated by experience.</p>
+      <p  class="fs-5 text-center">Ability proceeds from a fusion of skills, knowledge,understanding and imagination, consolidated by experience.</p>
       <span class="h5 text-center">Luis Desaivo, <span class="fs-5">CREO TECH</span></span>
       </div>
     </div>

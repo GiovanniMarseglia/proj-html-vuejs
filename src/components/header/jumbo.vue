@@ -21,14 +21,16 @@ export default {
 
 <template>
 <div class="container-fluid">
-  <div class="container">
+  <div class="container ">
     <navhead :lsnav="store.list"/>
-    <div class="jumboInfo d-flex flex-column gap-4 w-50">
+    <div class="jumboInfo d-flex flex-column gap-4 text-center text-md-start align-items-center align-items-md-start">
       <h1>SEM Capmpaigns Made Simple With Avada</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla at eaque iusto nostrum exercitationem</p>
-      <div class="d-flex gap-2">
-        <button class="btn rounded-5 py-2 px-5">BUY AVADA NOW</button>
-        <button class="btn rounded-5 py-2 px-5">CONTACT US</button>
+      <div class="d-flex flex-column flex-md-row gap-2 align-items-center">
+        <button class="btn rounded-5 py-2 px-5 d-none d-md-block">BUY AVADA NOW</button>
+        <button class="btn rounded-5 px-5 d-md-none d-block">BUY</button>
+        <button class="btn rounded-5 w-100 py-2 d-md-none d-block">CONTACT</button>
+        <button class="btn rounded-5 py-2 px-5 d-none d-md-block">CONTACT</button>
         
       </div>
     </div>
@@ -57,11 +59,12 @@ export default {
         color: $whiteAvada;
       }
       button{
-        &:first-of-type{
+        &:first-of-type,&:nth-of-type(2){
           background-color: $yellowAvada;
           color: $whiteAvada;
         }
-        &:last-of-type{
+        
+        &:last-of-type,&:nth-of-type(3){
           background-color: $azureAvada;
           color: $whiteAvada;
         }

@@ -19,7 +19,7 @@
                 <p class="text-center text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti eligendi tempore praesentium! Temporibus fugiat distinctio labo</p>
             </div>
 
-            <div class="row row-cols-4 g-5 d-flex justify-content-center">
+            <div class="row row-cols-md-4 row-cols-1 g-5 d-flex justify-content-center">
                 <div class="col">
                     <div class="inner bg-light d-flex flex-column text-center gap-4 py-5 align-items-center">
                         <h3>Standard</h3>
@@ -27,7 +27,7 @@
                         <span>5 Projects</span>
                         <span>5 GB Storage</span>
                         <span>Unlimited User</span>
-                        <button class="btn rounded-5 w-50">START TODAY</button>
+                        <button class="btn rounded-5">START TODAY</button>
                     </div>
                 </div>
 
@@ -39,7 +39,7 @@
                         <span>5 Projects</span>
                         <span>5 GB Storage</span>
                         <span>Unlimited User</span>
-                        <button class="btn rounded-5 w-50">START TODAY</button>
+                        <button class="btn rounded-5">START TODAY</button>
                     </div>
                 </div>
 
@@ -52,7 +52,7 @@
                         <span>5 Projects</span>
                         <span>5 GB Storage</span>
                         <span>Unlimited User</span>
-                        <button class="btn rounded-5 w-50">START TODAY</button>
+                        <button class="btn rounded-5">START TODAY</button>
                     </div>
                 </div>
 
@@ -66,7 +66,7 @@
                         <span>5 Projects</span>
                         <span>5 GB Storage</span>
                         <span>Unlimited User</span>
-                        <button class="btn rounded-5 w-50">START TODAY</button>
+                        <button class="btn rounded-5">START TODAY</button>
                     </div>
                 </div>
             </div>

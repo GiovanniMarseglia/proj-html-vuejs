@@ -9,23 +9,23 @@
 
 
 <template>
-    <div class="container-fluid py-5">
-        <div class="container d-flex flex-column gap-5 w-50 align-items-center">
+    <div class="container-fluid py-5 d-flex align-items-center">
+        <div class="container d-flex flex-column gap-5 align-items-center">
             <figure>
-                <img src="../../img/logo_seo_2x.png" alt="logo">
+                <img class="w-100" src="../../img/logo_seo_2x.png" alt="logo">
             </figure>
 
-            <ul class="d-flex li list-unstyled gap-4">
-                <li v-for="element in lsnav">{{ element }}</li>
+            <ul class="d-flex li list-unstyled gap-4 flex-column flex-md-row">
+                <li class="text-center" v-for="element in lsnav">{{ element }}</li>
             </ul>
-            <div class="d-flex gap-3">
-                <a href="#" class="text-decoration-none">Copyright 2012-2020 |</a>
-                <a href="#" class="text-decoration-none">Avada Theme by <span class="h5">ThemeFusion</span> | </a>
-                <a href="#" class="text-decoration-none">All Rights Reserved | </a>
-                <a href="#" class="text-decoration-none">Powered by <span class="h5">Vue</span></a>
+            <div class="d-flex gap-3 flex-column flex-md-row">
+                <a href="#" class="text-decoration-none text-center">Copyright 2012-2020 |</a>
+                <a href="#" class="text-decoration-none text-center">Avada Theme by <span class="h5">ThemeFusion |</span></a>
+                <a href="#" class="text-decoration-none text-center">All Rights Reserved | </a>
+                <a href="#" class="text-decoration-none text-center">Powered by <span class="h5">Vue</span></a>
             </div>
 
-            <div class="d-flex gap-5">
+            <div class="d-flex gap-md-5 gap-2">
                 <i class="bi bi-facebook"></i>
                 <i class="bi bi-instagram"></i>
                 <i class="bi bi-twitter-x"></i>

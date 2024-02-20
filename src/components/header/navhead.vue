@@ -20,11 +20,11 @@ data() {
     </figure>
 
     <div class="d-flex gap-3 align-items-center">
-    <ul class="d-flex li list-unstyled gap-4 mb-0">
+    <ul class="d-md-flex d-none li list-unstyled gap-2 gap-lg-4 mb-0 text-center">
         <li v-for="element in lsnav">{{element}}</li>
     </ul>
-    <button class="btn rounded-5 fw-bold">GET IN TOUCH NOW</button>
-
+    <button class="btn rounded-5 fs-6 fw-bold d-none d-sm-block">GET IN TOUCH NOW</button>
+    <button class="btn rounded-5 fs-6 fw-bold py-0 px-1 d-sm-none">CONTACT</button>
     </div>
 </div>
 </template>
@@ -36,6 +36,7 @@ data() {
     button{
         background-color: $yellowAvada!important;    
         color: $whiteAvada!important;
+        font-size: 12px!important;
     }
     
        

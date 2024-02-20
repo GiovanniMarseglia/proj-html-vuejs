@@ -24,7 +24,7 @@
             </div>
 
 
-            <div class="row row-cols-5 g-2 mt-5 gap-4 d-flex justify-content-center">
+            <div class="row row-cols-1 row-cols-md-5 mt-5 gap-4 d-flex justify-content-center">
                 <div class="d-flex flex-column col px-2 py-5 align-items-center gap-2">
                     <i class="bi bi-google"></i>
                     <h3 class="text-center">Google SEO</h3>
@@ -99,5 +99,6 @@
 
         
     }
+
 
 </style>

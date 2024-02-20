@@ -19,7 +19,7 @@
                 <h2 class="text-center">Our News</h2>
                 <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi earum est esse eveniet pariatur distinctio temporibus aliquid obcaecati recusandae.</p>
             </div>
-            <div class="row row-col-3 g-3">
+            <div class="row row-cols-md-3 row-cols-1 g-5 g-md-3">
                 <div class="col d-flex flex-column">
                     <figure>
                         <img class="w-100" src="../../img/newsimg/blog1.jpg" alt="">
