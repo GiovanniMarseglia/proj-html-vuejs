@@ -82,6 +82,13 @@
         }
         .col{
             background-color: #0F2151;
+            &:hover{
+                cursor: pointer;
+                background-color: $blueAvada;
+                h3{
+                    color: $yellowAvada;
+                }
+            }
         }
        
 
