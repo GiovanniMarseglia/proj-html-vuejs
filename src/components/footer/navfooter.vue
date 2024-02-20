@@ -18,10 +18,10 @@
             <ul class="d-flex li list-unstyled gap-4">
                 <li v-for="element in lsnav">{{ element }}</li>
             </ul>
-            <div class="d-flex">
-                <a href="#" class="text-decoration-none">Copyright 2012-2020</a>
-                <a href="#" class="text-decoration-none">Avada Theme by <span class="h5">ThemeFusion</span></a>
-                <a href="#" class="text-decoration-none">All Rights Reserved</a>
+            <div class="d-flex gap-3">
+                <a href="#" class="text-decoration-none">Copyright 2012-2020 |</a>
+                <a href="#" class="text-decoration-none">Avada Theme by <span class="h5">ThemeFusion</span> | </a>
+                <a href="#" class="text-decoration-none">All Rights Reserved | </a>
                 <a href="#" class="text-decoration-none">Powered by <span class="h5">Vue</span></a>
             </div>
 

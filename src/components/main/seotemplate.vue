@@ -70,6 +70,15 @@
                 width: 30px;
                 height: 40px;
             }
+
+            .col{
+                cursor: pointer;
+                &:hover{
+                    h2{
+                        color: $yellowAvada!important;
+                    }
+                }
+            }
         }
     }
 

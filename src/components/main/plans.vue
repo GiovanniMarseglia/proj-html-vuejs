@@ -21,9 +21,9 @@
 
             <div class="row row-cols-4 g-5 d-flex justify-content-center">
                 <div class="col">
-                    <div class="bg-light d-flex flex-column text-center gap-4 py-5 align-items-center">
+                    <div class="inner bg-light d-flex flex-column text-center gap-4 py-5 align-items-center">
                         <h3>Standard</h3>
-                        <span class="fw-bold h1"><sup>$</sup>19<sup class="h4">99</sup><sub class="fs-6">monthly</sub></span>
+                        <span class="fw-bold h1 w-100"><sup>$</sup>19<sup class="h4">99</sup><sub class="fs-6">monthly</sub></span>
                         <span>5 Projects</span>
                         <span>5 GB Storage</span>
                         <span>Unlimited User</span>
@@ -33,9 +33,9 @@
 
 
                 <div class="col">
-                    <div class="bg-light d-flex flex-column text-center gap-4 py-5 align-items-center">
+                    <div class="inner bg-light d-flex flex-column text-center gap-4 py-5 align-items-center">
                         <h3>Premium</h3>
-                        <span class="fw-bold h1"><sup>$</sup>29<sup class="h4">99</sup><sub class="fs-6">monthly</sub></span>
+                        <span class="fw-bold h1 w-100"><sup>$</sup>29<sup class="h4">99</sup><sub class="fs-6">monthly</sub></span>
                         <span>5 Projects</span>
                         <span>5 GB Storage</span>
                         <span>Unlimited User</span>
@@ -46,9 +46,9 @@
 
 
                 <div class="col">
-                    <div class="bg-light d-flex flex-column text-center gap-4 py-5 align-items-center">
+                    <div class="inner bg-light d-flex flex-column text-center gap-4 py-5 align-items-center">
                         <h3>Professional</h3>
-                        <span class="fw-bold h1"><sup>$</sup>39<sup class="h4">99</sup><sub class="fs-6">monthly</sub></span>
+                        <span class="fw-bold h1 w-100"><sup>$</sup>39<sup class="h4">99</sup><sub class="fs-6">monthly</sub></span>
                         <span>5 Projects</span>
                         <span>5 GB Storage</span>
                         <span>Unlimited User</span>
@@ -59,10 +59,10 @@
 
 
                 <div class="col ">
-                    <div class="bg-light d-flex flex-column text-center gap-4 py-5 align-items-center">
+                    <div class="inner bg-light d-flex flex-column text-center gap-4 py-5 align-items-center">
                     
                         <h3>Exstreme</h3>
-                        <span class="fw-bold h1"><sup>$</sup>59<sup class="h4">99</sup><sub class="fs-6">monthly</sub></span>
+                        <span class="fw-bold h1 w-100"><sup>$</sup>59<sup class="h4">99</sup><sub class="fs-6">monthly</sub></span>
                         <span>5 Projects</span>
                         <span>5 GB Storage</span>
                         <span>Unlimited User</span>
@@ -91,13 +91,42 @@
                     border: 1px solid $greyAvada;
                     color: $greyAvada;
                     &:hover{
-                        color: white;
+                        color: white!important;
                         background-color: $yellowAvada;
-                        border: 1px solid transparent;
+                        border: 1px solid transparent!important;
                     }
 
                 }
                 .col{
+                    .inner{
+                    cursor: pointer;
+                    &:hover{
+                        .fw-bold{
+                            background-color: $lgwhiteAvada!important;
+                        }
+                        h3{
+                            color: $azureAvada;
+                        }
+                        button{
+                            border: 1px solid $azureAvada;
+                            color: $azureAvada;
+                            background-color: $lgwhiteAvada!important;
+                        }
+                    }
+
+                    
+                        
+                        button{
+                            &:hover{
+
+                                border: 1px solid transparent;
+                                color: $whiteAvada;
+                                background-color: $yellowAvada!important;
+                            }
+                        }
+                    
+
+                }
                     .h1{
                         color: $azureAvada;
                         sub{
