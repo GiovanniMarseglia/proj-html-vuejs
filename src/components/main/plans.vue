@@ -1,9 +1,13 @@
+
 <script>
+import {store} from '../../store'
+
     export default {
+        
         name:"plan",
         data() {
             return {
-                
+            store                
             }
         },
     }
@@ -20,55 +24,19 @@
             </div>
 
             <div class="row row-cols-md-4 row-cols-1 g-5 d-flex justify-content-center">
-                <div class="col">
+                <div class="col" v-for="element in store.plans">
                     <div class="inner bg-light d-flex flex-column text-center gap-4 py-5 align-items-center">
-                        <h3>Standard</h3>
-                        <span class="fw-bold h1 w-100"><sup>$</sup>19<sup class="h4">99</sup><sub class="fs-6">monthly</sub></span>
-                        <span>5 Projects</span>
-                        <span>5 GB Storage</span>
-                        <span>Unlimited User</span>
+                        <h3>{{element.name}}</h3>
+                        <span class="fw-bold h1 w-100"><sup>{{element.value}}</sup>{{element.price.toString().split('.')[0]}}<sup class="h4">{{element.price.toString().split('.')[1]}}</sup><sub class="fs-6">monthly</sub></span>
+                        <span>{{element.projects}} Projects</span>
+                        <span>{{element.storage}} GB Storage</span>
+                        <span>{{element.maxUser}} User</span>
                         <button class="btn rounded-5">START TODAY</button>
                     </div>
                 </div>
 
 
-                <div class="col">
-                    <div class="inner bg-light d-flex flex-column text-center gap-4 py-5 align-items-center">
-                        <h3>Premium</h3>
-                        <span class="fw-bold h1 w-100"><sup>$</sup>29<sup class="h4">99</sup><sub class="fs-6">monthly</sub></span>
-                        <span>5 Projects</span>
-                        <span>5 GB Storage</span>
-                        <span>Unlimited User</span>
-                        <button class="btn rounded-5">START TODAY</button>
-                    </div>
-                </div>
-
-
-
-                <div class="col">
-                    <div class="inner bg-light d-flex flex-column text-center gap-4 py-5 align-items-center">
-                        <h3>Professional</h3>
-                        <span class="fw-bold h1 w-100"><sup>$</sup>39<sup class="h4">99</sup><sub class="fs-6">monthly</sub></span>
-                        <span>5 Projects</span>
-                        <span>5 GB Storage</span>
-                        <span>Unlimited User</span>
-                        <button class="btn rounded-5">START TODAY</button>
-                    </div>
-                </div>
-
-
-
-                <div class="col ">
-                    <div class="inner bg-light d-flex flex-column text-center gap-4 py-5 align-items-center">
-                    
-                        <h3>Exstreme</h3>
-                        <span class="fw-bold h1 w-100"><sup>$</sup>59<sup class="h4">99</sup><sub class="fs-6">monthly</sub></span>
-                        <span>5 Projects</span>
-                        <span>5 GB Storage</span>
-                        <span>Unlimited User</span>
-                        <button class="btn rounded-5">START TODAY</button>
-                    </div>
-                </div>
+                
             </div>
         </div>
 
