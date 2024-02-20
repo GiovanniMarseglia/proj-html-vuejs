@@ -24,7 +24,7 @@ export default {
   <div class="container ">
     <navhead :lsnav="store.list"/>
     <div class="jumboInfo d-flex flex-column gap-4 text-center text-md-start align-items-center align-items-md-start">
-      <h1>SEM Capmpaigns Made Simple With Avada</h1>
+      <h1>SEM Campaigns Made Simple With Avada</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla at eaque iusto nostrum exercitationem</p>
       <div class="d-flex flex-column flex-md-row gap-2 align-items-center">
         <button class="btn rounded-5 py-2 px-5 d-none d-md-block">BUY AVADA NOW</button>
