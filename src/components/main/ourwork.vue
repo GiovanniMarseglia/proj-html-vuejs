@@ -80,7 +80,7 @@
 
                 
             </div>
-            <button class="btn rounded-5 text-light px-5 py-2">VIEW OUR WORK</button>
+            <button class="btn rounded-5 text-light px-2 px-md-5 py-2">VIEW OUR WORK</button>
         </div>
     </div>
 </template>

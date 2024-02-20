@@ -71,4 +71,15 @@ export default {
       }
     }
 }
+
+
+@media screen and (max-width:769px){
+
+  .container-fluid{
+    
+    background-position-x: center;
+    height: 700px;
+  }
+  
+}
 </style>
