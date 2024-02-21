@@ -58,7 +58,9 @@ import {store} from '../../store'
                 button{
                     border: 1px solid $greyAvada;
                     color: $greyAvada;
+                    transition: 1s ease-in-out;
                     &:hover{
+                        transform: scale(1.2);
                         color: white!important;
                         background-color: $yellowAvada;
                         border: 1px solid transparent!important;

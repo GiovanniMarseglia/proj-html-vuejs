@@ -64,9 +64,10 @@
             }
             button{
                 background-color: $yellowAvada!important;
+                transition: 1s ease-in-out;
                 &:hover{
-          scale: 110%;
-        }
+                    transform: scale(1.2);
+                }
             }
         }
 

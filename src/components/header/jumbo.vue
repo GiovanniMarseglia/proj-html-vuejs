@@ -59,6 +59,8 @@ export default {
         color: $whiteAvada;
       }
       button{
+        transition: 1s ease-in-out;
+        
         &:first-of-type,&:nth-of-type(2){
           background-color: $yellowAvada;
           color: $whiteAvada;
@@ -69,7 +71,7 @@ export default {
           color: $whiteAvada;
         }
         &:hover{
-          scale: 110%;
+          transform: scale(1.1);
         }
       }
     }

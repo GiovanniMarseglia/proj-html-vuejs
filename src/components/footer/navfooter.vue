@@ -12,7 +12,8 @@
     <div class="container-fluid py-5 d-flex align-items-center">
         <div class="container d-flex flex-column gap-5 align-items-center">
             <figure>
-                <img class="w-100" src="../../img/logo_seo_2x.png" alt="logo">
+            <a href="#"><img class="w-100" src="../../img/logo_seo_2x.png" alt="logo"></a>
+                
             </figure>
 
             <ul class="d-flex li list-unstyled gap-4 flex-column flex-md-row">
@@ -38,12 +39,22 @@
 
 <style lang="scss" scoped>
 @use "../../styles/partials/variables" as *;
+
+figure{
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
 i{
     color:$greyAvada;
     font-size: 30px;
     cursor: pointer;
+    transition: transform 1s ease-in-out;
     &:hover{
-        scale: 120%;
+        transform: scale(1.2);
     }
 }
 
