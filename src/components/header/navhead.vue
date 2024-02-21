@@ -37,6 +37,9 @@ data() {
         background-color: $yellowAvada!important;    
         color: $whiteAvada!important;
         font-size: 12px!important;
+        &:hover{
+          scale: 110%;
+        }
     }
     
        

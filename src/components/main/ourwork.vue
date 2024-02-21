@@ -120,6 +120,9 @@
             
         background-color: $yellowAvada!important;    
         color: $whiteAvada!important;
+        &:hover{
+          scale: 110%;
+        }
     
         }
 

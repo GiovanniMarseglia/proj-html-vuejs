@@ -64,6 +64,9 @@
             }
             button{
                 background-color: $yellowAvada!important;
+                &:hover{
+          scale: 110%;
+        }
             }
         }
 

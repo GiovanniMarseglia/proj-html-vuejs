@@ -41,6 +41,10 @@
 i{
     color:$greyAvada;
     font-size: 30px;
+    cursor: pointer;
+    &:hover{
+        scale: 120%;
+    }
 }
 
 ul{
@@ -54,6 +58,9 @@ ul{
 
 a{
     color: $greyAvada;
+    &:hover{
+        color: black;
+    }
     span{
         color: $blackAvada;
     }

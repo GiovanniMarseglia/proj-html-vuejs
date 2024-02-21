@@ -26,5 +26,6 @@
 <style lang="scss" scoped>
     img{
         width: 80px;
+        cursor: pointer;
     }
 </style>

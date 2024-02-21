@@ -28,6 +28,9 @@
     background-color: rgba(0, 0, 0, 0.521);
         button{
             background-color: $yellowAvada;
+            &:hover{
+          scale: 110%;
+        }
         }
 }
 }

@@ -68,6 +68,9 @@ export default {
           background-color: $azureAvada;
           color: $whiteAvada;
         }
+        &:hover{
+          scale: 110%;
+        }
       }
     }
 }
