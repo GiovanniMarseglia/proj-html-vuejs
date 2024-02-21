@@ -16,7 +16,7 @@ import {store} from '../../store'
 
 
 <template>
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5" id="plan">
         <div class="container d-flex flex-column gap-4 ">
             <div class="mx-auto w-50">
                 <h2 class="text-center text-light">Our Plans</h2>

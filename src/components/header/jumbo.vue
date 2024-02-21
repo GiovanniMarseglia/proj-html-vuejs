@@ -27,8 +27,8 @@ export default {
       <h1>SEM Campaigns Made Simple With Avada</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla at eaque iusto nostrum exercitationem</p>
       <div class="d-flex flex-column flex-md-row gap-2 align-items-center">
-        <button class="btn rounded-5 py-2 px-5 d-none d-md-block">BUY AVADA NOW</button>
-        <button class="btn rounded-5 px-5 d-md-none d-block">BUY</button>
+        <button class="btn rounded-5 py-2 px-5 d-none d-md-block"><a href="#plan" class="text-light text-decoration-none">BUY AVADA NOW</a></button>
+        <button class="btn rounded-5 px-5 d-md-none d-block"><a href="#plan" class="text-light text-decoration-none">BUY</a></button>
         <button class="btn rounded-5 w-100 py-2 d-md-none d-block">CONTACT</button>
         <button class="btn rounded-5 py-2 px-5 d-none d-md-block">CONTACT</button>
         
