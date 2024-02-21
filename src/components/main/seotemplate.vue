@@ -13,7 +13,7 @@
 
 
 <template>
-    <div class="container-fluid up px-0">
+    <div class="container-fluid up px-0" id="are">
         <div class="container">
             <div class="d-flex flex-column gap-2 w-50 mx-auto pt-5">
                 <h2 class="fw-bold text-center">Meet The New Agency SEO Template From The Avada Team</h2>

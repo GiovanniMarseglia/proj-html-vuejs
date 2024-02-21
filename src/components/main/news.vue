@@ -13,7 +13,7 @@
 
 
 <template>
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5" id="news">
         <div class="container d-flex flex-column align-items-center gap-5">
             <div class="d-flex flex-column gap-2 w-50 ">
                 <h2 class="text-center">Our News</h2>

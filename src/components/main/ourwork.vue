@@ -13,7 +13,7 @@
 
 
 <template>
-    <div class="container-fluid">
+    <div class="container-fluid" id="work">
         <div class="container d-flex flex-column gap-4 align-items-center">
             <div class=" w-50 pt-5">
                 <h2 class="text-center">Our Work</h2>

@@ -3,12 +3,31 @@ import { reactive } from "vue";
 
 export const store = reactive({
     list:[
-        "Home",
-        "Who We Are",
-        "What We do",
-        "Where We Worker",
-        "Careers",
-        "News"
+
+      {
+        name:"Home",
+        ref:""
+      },
+      {
+        name:"Who We Are",
+        ref:"are"
+      },
+      {
+        name:"What We do",
+        ref:"do"
+      },
+      {
+        name:"Where We Worker",
+        ref:"work"
+      },
+      {
+        name:"Careers",
+        ref:"carreer"
+      },
+      {
+        name:"News",
+        ref:"news"
+      }
       ],
       plans:[
         {

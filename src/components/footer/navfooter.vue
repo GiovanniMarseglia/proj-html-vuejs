@@ -17,7 +17,7 @@
             </figure>
 
             <ul class="d-flex li list-unstyled gap-4 flex-column flex-md-row">
-                <li class="text-center" v-for="element in lsnav">{{ element }}</li>
+                <li class="text-center" v-for="element in lsnav"><a :href="`#${element.ref}`">{{ element.name }}</a></li>
             </ul>
             <div class="d-flex gap-3 flex-column flex-md-row">
                 <a href="#" class="text-decoration-none text-center">Copyright 2012-2020 |</a>
