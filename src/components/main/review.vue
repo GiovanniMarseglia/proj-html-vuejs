@@ -1,6 +1,6 @@
 <script>
     export default {
-        name:"review",
+        name:"Review",
             data() {
                 return {
                     

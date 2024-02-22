@@ -4,7 +4,7 @@ import {store} from '../../store'
 
     export default {
         
-        name:"plan",
+        name:"Plans",
         data() {
             return {
             store                

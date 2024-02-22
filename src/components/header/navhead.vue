@@ -3,7 +3,7 @@ export default{
     props:{
         ["lsnav"]:Array
     },
-    name:"navhead",
+    name:"NavHead",
 data() {
     
     return {

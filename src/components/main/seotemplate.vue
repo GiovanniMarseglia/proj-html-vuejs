@@ -1,6 +1,6 @@
 <script>
     export default {
-        name:"seotemplate",
+        name:"SeoTemplate",
             data() {
                 return {
                     

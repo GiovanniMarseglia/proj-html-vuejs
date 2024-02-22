@@ -1,20 +1,20 @@
 <script>
-    import seotemplate from "./seotemplate.vue"
-    import services from "./services.vue" 
-    import ourwork from "./ourwork.vue" 
-    import plans from "./plans.vue" 
-    import news from "./news.vue" 
-    import review from "./review.vue"
-    import otherservice from "./otherservice.vue"
+    import SeoTemplate from "./SeoTemplate.vue"
+    import Services from "./Services.vue" 
+    import OurWork from "./OurWork.vue" 
+    import Plans from "./Plans.vue" 
+    import News from "./News.vue" 
+    import Review from "./Review.vue"
+    import OtherService from "./OtherService.vue"
     export default {
         components:{
-            seotemplate,
-            services,
-            ourwork,
-            plans,
-            news,
-            review,
-            otherservice,
+            SeoTemplate,
+            Services,
+            OurWork,
+            Plans,
+            News,
+            Review,
+            OtherService,
         },
         data() {
             return {
@@ -25,13 +25,13 @@
 </script>
 
 <template>
-    <seotemplate/>
-    <services/>
-    <ourwork/>
-    <plans/>
-    <news/>
-    <review/>
-    <otherservice/>
+    <SeoTemplate/>
+    <Services/>
+    <OurWork/>
+    <Plans/>
+    <News/>
+    <Review/>
+    <OtherService/>
 </template>
 
 

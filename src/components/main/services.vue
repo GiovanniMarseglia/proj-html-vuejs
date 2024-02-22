@@ -2,7 +2,7 @@
 <script>
     
     export default {
-        name:"services",
+        name:"Services",
         data() {
             return {
                 

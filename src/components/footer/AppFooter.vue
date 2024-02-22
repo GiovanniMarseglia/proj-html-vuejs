@@ -1,12 +1,12 @@
 <script>
-    import consultation from "./consultation.vue"
-    import navfooter from "./navfooter.vue"
+    import Consultation from "./Consultation.vue"
+    import NavFooter from "./NavFooter.vue"
     import {store} from "../../store"
     export default {
         name:"AppFooter",
     components:{
-        consultation,
-        navfooter,
+        Consultation,
+        NavFooter,
     },
     data() {
         return {
@@ -19,8 +19,8 @@
 
 
 <template>
-    <consultation/>
-    <navfooter :lsnav="store.list"/>
+    <Consultation/>
+    <NavFooter :lsnav="store.list"/>
 </template>
 
 <style lang="scss" scoped>

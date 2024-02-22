@@ -1,6 +1,6 @@
 <script>
     export default {
-        name:"navfooter",
+        name:"NavFooter",
         props:{
         ["lsnav"]:Array
     },

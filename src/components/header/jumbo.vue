@@ -1,10 +1,10 @@
 <script >
-import navhead from "./navhead.vue";
+import NavHead from "./NavHead.vue";
 import {store} from "../../store"
 export default {
-    name:"jumbo",
+    name:"Jumbo",
   components:{
-    navhead
+    NavHead
         },
 
   data() {
@@ -22,7 +22,7 @@ export default {
 <template>
 <div class="container-fluid">
   <div class="container ">
-    <navhead :lsnav="store.list"/>
+    <NavHead :lsnav="store.list"/>
     <div class="jumboInfo d-flex flex-column gap-4 text-center text-md-start align-items-center align-items-md-start">
       <h1>SEM Campaigns Made Simple With Avada</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla at eaque iusto nostrum exercitationem</p>

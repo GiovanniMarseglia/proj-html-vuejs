@@ -1,6 +1,6 @@
 <script>
     export default {
-        name:"news",
+        name:"News",
         data() {
             return {
                 
